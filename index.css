@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 #inputEl {
@@ -19,4 +20,36 @@ body {
     color: white;
     border: none;
     font-weight: bold;
+}
+
+#saveBtn {
+    padding: 10px 20px;
+    margin-top: 4px;
+    background: rgb(255, 77, 0);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#deleteBtn{
+    padding: 10px 20px;
+    margin-top: 4px;
+    background: white;
+    color: rgb(255, 77, 0);
+    border: 1px solid rgb(255, 77, 0);
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    color: rgb(255, 77, 0);
 }
